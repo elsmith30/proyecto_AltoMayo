@@ -109,4 +109,13 @@
     margin-top: 60px;
     font-size: 0.9rem;
   }
-  
+  .cuadro img {
+  transition: transform 0.4s ease;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cuadro img:hover {
+  transform: scale(1.05) rotate(1deg);
+  cursor: pointer;
+}
